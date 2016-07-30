@@ -25,8 +25,6 @@ public abstract class BaseLazyFragment extends Fragment {
     protected Context context;
     protected FragmentManager fragmentManager,childFragmentManager;
     protected Resources resources;
-    //是否显示dialog
-    protected boolean showDialog = false;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
